@@ -33,6 +33,12 @@ Probar con script PowerShell (Windows)
 
 Dockerización
 --------------
+## Para instalar
+
+```bash
+docker pull ghcr.io/jennaruan/create-api:1.0@sha256:655ed77a5a2caaeb557d7e0db2d7329857e2937632a694e17605aedd2e29008d
+```
+
 ## Ejecutar con Docker
 ```bash
 docker run -p 5000:5000 ghcr.io/jennaruan/create-api:1.0
