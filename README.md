@@ -31,6 +31,13 @@ Probar con script PowerShell (Windows)
 .\test_api.ps1
 ``` 
 
+Dockerización
+--------------
+## Ejecutar con Docker
+```bash
+docker run -p 5000:5000 ghcr.io/jennaruan/create-api:1.0
+``` 
+
 Retos de aprendizaje
 --------------------
 
